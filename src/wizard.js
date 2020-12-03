@@ -47,7 +47,7 @@ const options = [
 		aliases: ['postfolders'],
 		type: 'boolean',
 		description: 'Create a folder for each post',
-		default: true
+		default: false
 	},
 	{
 		name: 'prefix-date',

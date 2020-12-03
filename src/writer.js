@@ -124,7 +124,7 @@ function getPostPath(post, config) {
 	}
 
 	// create slug fragment, possibly date prefixed
-	let slugFragment = post.meta.slug;
+	let slugFragment = post.meta.id;
 	if (config.prefixDate) {
 		slugFragment = dt.toFormat('yyyy-LL-dd') + '-' + slugFragment;
 	}
